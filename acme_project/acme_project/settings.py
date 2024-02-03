@@ -34,6 +34,8 @@ ROOT_URLCONF = 'acme_project.urls'
 
 TEMPLATES_DIR = BASE_DIR / 'templates'
 
+MEDIA_ROOT = BASE_DIR / 'media'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
